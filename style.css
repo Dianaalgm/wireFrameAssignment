@@ -1,0 +1,75 @@
+.topBar{
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    background-color: rgb(136, 106, 106);
+}
+.logo{
+    height: 6vh;
+    width: 15vw;
+    margin-top: 5px;
+}
+.mainImage{
+    border: solid white;
+    height: 400px;
+    background-image: url(https://i.pinimg.com/736x/8e/83/f5/8e83f59c41c577a9940810922114bc5f.jpg);    
+    background-size: cover;
+    background-position: center;
+}
+.adText{
+    margin-top: 5%;
+    font-size: 22pt;
+    display: flex;
+    justify-content: center;
+    color: rgb(56, 36, 0);
+    font-style: oblique;
+}
+.subButton{
+   height: 5vh;
+   width: 15vw;
+   margin-left: 40%;
+}
+.midContainer{
+    /* border: solid red; */
+    background-color:#f5a9a9 ;
+}
+.titleCard{
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+}
+.productInfo{
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+.candleFacts{
+    display: flex;
+    justify-content:space-between;
+    height: 4vh;
+    margin-bottom: 5%;
+}
+.productInfo1,.productInfo2,.productInfo3{
+   font-size: 18px;
+}
+.candleDef{
+    /* border: solid red; */
+    height: 40vh;
+    width: 97vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(179, 168, 154);
+}
+.productDes1{
+    font-size: 20px;
+    text-align: left;
+}
+.productDes2{
+    font-size: 20px;
+    text-align: center;
+}
+.productDes3{
+    font-size: 20px;
+    text-align: right;
+}
